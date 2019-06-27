@@ -3,12 +3,12 @@ public class StringLab {
 
 	public static void main(String[] args) {
 
-		StringMethod.capitalize("weLCOme1");
-		StringMethod.wheresWaldo("Striped Waldo!");
-		StringMethod.firstThingsFirst("tree", "pine");
-		StringMethod.reverse("World");
-		StringMethod.soLong("be", "welcome");
-		StringMethod.afterMath("She aced her mathematics test.");
+		System.out.println(StringMethod.capitalize("weLCOme1"));
+		System.out.println(StringMethod.wheresWaldo("Striped Waldo!"));
+		System.out.println(StringMethod.firstThingsFirst("tree", "pine"));
+		System.out.println(StringMethod.reverse("World"));
+		System.out.println(StringMethod.soLong("be", "welcome"));
+		System.out.println(StringMethod.afterMath("She aced her mathematics test."));
 	}
 
 }

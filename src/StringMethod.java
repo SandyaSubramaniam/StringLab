@@ -71,6 +71,7 @@ public class StringMethod {
 		if (n >= 0) {
 
 			return (phrase.substring(n));
+
 		} else {
 
 			return ("dud");
